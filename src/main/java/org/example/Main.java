@@ -20,6 +20,7 @@ Treba lepo da se ispise klasa samo kao Racunar, Laptop ili Mobilni, a ne class p
     public static void main(String[] args) {
 
         Racunar racunar = new Racunar(8, 1024,32);
+        Racunar racunar1 = new Racunar(16, 1024,32);
 
         Laptop laptop1 = new Laptop(3, 512,16, 17.5, TastaturaE.US);
 
@@ -27,6 +28,7 @@ Treba lepo da se ispise klasa samo kao Racunar, Laptop ili Mobilni, a ne class p
 
         ArrayList<Racunar> lista = new ArrayList<>();
         lista.add(racunar);
+        lista.add(racunar1);
         lista.add(mob1);
         lista.add(laptop1);
 
