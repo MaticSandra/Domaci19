@@ -1,17 +1,17 @@
 package DodatniZadatakTest;
 
 public class Laptop extends Racunar {
-     double velicinaEkrana;
+     double ekran;
      Tastatura tastatura;
 
-     public Laptop(int brojProcesora, int kolicinaRama, int kolicinaMemorije, double velicinaEkrana, Tastatura tastatura){
+     public Laptop(int brojProcesora, int kolicinaRama, int kolicinaMemorije, double ekran, Tastatura tastatura){
          super(brojProcesora, kolicinaRama, kolicinaMemorije);
-         this.velicinaEkrana = velicinaEkrana;
+         this.ekran = ekran;
          this.tastatura = tastatura;
      }
 
     @Override
     public String toString() {
-        return super.toString() + " velicina ekrana: " + velicinaEkrana + "tastatura: " + tastatura;
+        return super.toString() + " velicina ekrana: " + ekran + "tastatura: " + tastatura;
     }
 }
