@@ -1,5 +1,5 @@
 package DodatniZadatakTest;
 
-public enum Tastatura {
+public enum TastaturaE {
     US, INTERNACIONALNA;
 }

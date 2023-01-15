@@ -21,7 +21,7 @@ Treba lepo da se ispise klasa samo kao Racunar, Laptop ili Mobilni, a ne class p
 
         Racunar racunar = new Racunar(8, 1024,32);
 
-        Laptop laptop1 = new Laptop(3, 512,16, 17.5, Tastatura.US);
+        Laptop laptop1 = new Laptop(3, 512,16, 17.5, TastaturaE.US);
 
         MobilniTelefon mob1 = new MobilniTelefon(3,512,8,12, Mreza.CETIRI_G);
 
